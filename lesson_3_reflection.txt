@@ -29,4 +29,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    To experiment with new features, implement them, and only merge them
+    once the changes have been reviewed by someone else.
+    This way code in master will almost always build without problems.
+    Working on master directly allows for faster changes to be released.
